@@ -11,8 +11,9 @@ import pymongo
 
 #MLOPS_adv\networksecurity\exception\__init__.py
 
-from networksecurity.exception import NetworkSecurityException
-from networksecurity.logger import logging
+from networksecurity.exception.exception import NetworkSecurityException
+#from networksecurity.exception import NetworkSecurityException
+from networksecurity.logger.logger import logging
 
 
 class NetworkDataExtract():
